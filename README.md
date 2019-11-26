@@ -4,9 +4,9 @@ This is the most basic project packman can generate, and it will simply template
 Feel free to modify this seed to satisfy your needs.
 
 Flags given to packman:
-{{{ - range $k, $v :=.Flags }}}
+{{{- range $k, $v :=.Flags }}}
 - {{{ $k }}} => {{{ $v }}}
-{{{ - end }}}
+{{{- end }}}
 
 This template was generated at: {{{ .Timestamp }}}
 
