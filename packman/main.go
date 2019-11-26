@@ -1,4 +1,4 @@
-package packman
+package main
 
 import (
 	"github.com/securenative/packman/pkg"
